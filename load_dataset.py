@@ -20,4 +20,3 @@ def load_dataset(path_to_data_folder: str, path_to_loaded_data_folder: str) -> N
     train.to_csv(os.path.join(path_to_loaded_data_folder, 'train.csv'), index=False)
     test.to_csv(os.path.join(path_to_loaded_data_folder, 'test.csv'), index=False)
     y_test.to_csv(os.path.join(path_to_loaded_data_folder, 'y_test.csv'), index=False)
-    
